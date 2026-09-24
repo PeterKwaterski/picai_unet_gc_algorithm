@@ -1,0 +1,10 @@
+[project]
+name = "picai-unet-gc-algorithm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "picai-baseline>=0.8.5",
+    "picai-eval>=1.4.13",
+]

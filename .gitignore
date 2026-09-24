@@ -1,6 +1,15 @@
-**/*.tar.gz
-**/*.mhd
-**/*.zraw
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-.DS_Store
-.vscode/
+# Virtual environments
+.venv
+*.sif
+results/oof/
+logs/
+*.out
+*.err
